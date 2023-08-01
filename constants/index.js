@@ -1,20 +1,19 @@
 export const apiKey = 'd435574e14274ab8938174220233107';
 
 export const weatherImages = {
-    'Partly cloudy': require('../assets/images/partlycloudy.png'),
-    'Moderate rain': require('../assets/images/moderaterain.png'),
-    'Patchy rain possible': require('../assets/images/moderaterain.png'),
-    'Sunny': require('../assets/images/sun.png'),
-    'Clear': require('../assets/images/sun.png'),
+    'Sluníčkový piknik s obláčky': require('../assets/images/partlycloudy.png'),
+    'Mírný deštíkový koncert': require('../assets/images/moderaterain.png'),
+    'Obláčky mohou pokapávat': require('../assets/images/moderaterain.png'),
+    'Den plný sluníčkových úsměvů': require('../assets/images/sun.png'),
     'Overcast': require('../assets/images/cloud.png'),
-    'Cloudy': require('../assets/images/cloud.png'),
-    'Light rain': require('../assets/images/moderaterain.png'),
-    'Moderate rain at times': require('../assets/images/moderaterain.png'),
-    'Heavy rain': require('../assets/images/heavyrain.png'),
-    'Heavy rain at times': require('../assets/images/heavyrain.png'),
-    'Moderate or heavy freezing rain': require('../assets/images/heavyrain.png'),
-    'Moderate or heavy rain shower': require('../assets/images/heavyrain.png'),
-    'Moderate or heavy rain with thunder': require('../assets/images/heavyrain.png'),
-    'Mist': require('../assets/images/mist.png'),
+    'Hustá obláčková párty': require('../assets/images/cloud.png'),
+    'Šeptání dešťových kapek': require('../assets/images/moderaterain.png'),
+    'Občasné kapky pro radost': require('../assets/images/moderaterain.png'),
+    'Silný deštíkový koncert': require('../assets/images/heavyrain.png'),
+    'Obláčky občas hodně pláčou': require('../assets/images/heavyrain.png'),
+    'Zmrzlé kapky, malé nebo velké': require('../assets/images/heavyrain.png'),
+    'Obláčkové sprchování, malé nebo velké': require('../assets/images/heavyrain.png'),
+    'Bouřkový koncert pro velké i malé kapky': require('../assets/images/heavyrain.png'),
+    'Hra na schovávanou s kouzelnou mlhou': require('../assets/images/mist.png'),
     'other': require('../assets/images/moderaterain.png')
 }
