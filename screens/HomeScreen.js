@@ -67,12 +67,9 @@ export default function HomeScreen() {
   const {location, current} = weather;
 
   return (
-    <View className="flex-1 relative">
+    <View className="flex-1 relative bg-blue">
       <StatusBar style="light" />
-      <Image 
-        blurRadius={70} 
-        source={require('../assets/images/bg.png')} 
-        className="absolute w-full h-full" />
+      
         {
           loading? (
             <View className="flex-1 flex-row justify-center items-center">
@@ -183,7 +180,7 @@ export default function HomeScreen() {
               <View className="mb-2 space-y-3">
                 <View className="flex-row items-center mx-5 space-x-2">
                   <CalendarDaysIcon size="22" color="white" />
-                  <Text className="text-white text-base">Daily forecast</Text>
+                  <Text className="text-white text-base">Tajemství příštího týdne</Text>
                 </View>
                 <ScrollView   
                   horizontal
