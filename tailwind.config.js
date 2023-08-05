@@ -7,7 +7,11 @@ module.exports = {
     "./navigation/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+      'blue': '#99D0D3',
+      },
+    },
   },
   plugins: [],
 }
