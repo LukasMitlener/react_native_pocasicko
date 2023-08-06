@@ -135,8 +135,8 @@ export default function HomeScreen() {
               <View className="mx-4 flex justify-around flex-1 mb-2">
                 {/* location */}
                 <Text className="text-white text-center text-2xl font-bold">
-                  {location?.name}, 
-                  <Text className="text-lg font-semibold text-gray-300">{location?.country}</Text>
+                  {location?.name},{" "} 
+                  <Text className="text-lg font-semibold text-gray-100">{location?.country}</Text>
                 </Text>
                 {/* weather icon */}
                 <View className="flex-row justify-center">
